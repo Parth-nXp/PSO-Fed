@@ -50,11 +50,11 @@ python main.py
 
 If you encounter any issues or errors while running the project, please check the following:
 
-- Ensure all dependencies are installed correctly by running pip install -r requirements.txt.
+- Ensure all dependencies are installed correctly by running `pip install -r requirements.txt`.
   
 - Make sure you are using a compatible version of Python (e.g., Python 3.6 or higher).
  
-- If you encounter issues related to missing files or incorrect paths, verify that you are in the correct directory (PSO-Fed).
+- If you encounter issues related to missing files or incorrect paths, verify that you are in the correct directory (`PSO-Fed`).
 
 If problems persist, feel free to open an issue on GitHub.
 
@@ -64,11 +64,11 @@ Contributions are welcome! If you have suggestions for improvements or bug fixes
 
 1. Fork the repository.
 
-2. Create a new branch (git checkout -b feature-branch).
+2. Create a new branch (`git checkout -b feature-branch`).
 
-3. Make your changes and commit them (git commit -m 'Add some feature').
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
 
-4. Push to the branch (git push origin feature-branch).
+4. Push to the branch (`git push origin feature-branch`).
 
 5. Open a pull request.
 
