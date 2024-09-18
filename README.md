@@ -2,7 +2,7 @@
 
 This repository implements a communication-efficient online federated learning framework for nonlinear regression using partial sharing. Clients update local models with streaming data and share only portions of those updates with the server, reducing communication overhead while maintaining performance.
 
-This implementation is inspired by the work of Vinay Chakravarthi Gogineni et al., titled "Communication-Efficient Online Federated Learning Framework for Nonlinear Regression," presented at ICASSP 2022. [Read the paper](https://doi.org/10.1109/ICASSP43922.2022.9746228).
+This implementation is inspired by the work of Vinay Chakravarthi Gogineni et al., titled "Communication-Efficient Online Federated Learning Framework for Nonlinear Regression," presented at International Conference on Acoustics, Speech, and Signal Processing 2022. [Read the paper](https://doi.org/10.1109/ICASSP43922.2022.9746228).
 
 ## Project Structure
 
