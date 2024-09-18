@@ -8,7 +8,7 @@ def main():
     learning_rate = 0.55
     num_epochs = 10
     num_shared_params = 175
-    num_experiments = 1
+    num_experiments = 500
     num_participating_clients = 20
 
     experiment_runner = ExperimentRunner(
