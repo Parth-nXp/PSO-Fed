@@ -6,19 +6,30 @@ This implementation is inspired by the work of Vinay Chakravarthi Gogineni et al
 
 ## Project Structure
 
-The project is divided into several scripts:
+The project is divided into four main scripts:
 
-1. **federated_learning.py**
-   - Contains the `FederatedLearning` class, which implements the PSO-Fed algorithm.
+### 1. `dataset_generator.py`
+   - **Purpose**: Contains the `DatasetGenerator` class, responsible for generating synthetic data for federated learning. It uses random Fourier features (RFF) to map each client’s input-output data and generates corresponding labels.
+   - **Key Functionality**:
+       - `generate_dataset()`: Produces input-output pairs for each client using random Fourier features and an autoregressive model to generate inputs.
 
-2. **data_generation.py**
-   - Contains functions for generating synthetic data used in the experiments.
+### 2. `federated_learning.py`
+   - **Purpose**: Contains the `FederatedLearning` class, which performs local updates for each client and applies federated averaging to update the global model.
+   - **Key Functionality**:
+      - `client_update()`: Updates the local models by computing gradients on each client's data and adjusting the model weights accordingly.
+      - `federated_averaging()`: Aggregates the local models from selected clients to compute the global model using federated averaging.
+      - `evaluate_global_model()`: Evaluates the performance of the global model across clients by calculating mean squared error (MSE).
+      - `print_final_global_model()`: Displays the final global model weights at the end of training.
 
-3. **plotting.py**
-   - Contains functions for plotting the results.
+### 3. `experiment_runner.py`
+   - **Purpose**: Contains the `ExperimentRunner` class, which manages the execution of federated learning experiments by integrating dataset generation and local model updates.
+   - **Key Functionality**:
+      - `run()`: Executes multiple experiments, generates training and testing datasets, conducts federated learning rounds, and tracks global loss histories across experiments.
 
-4. **main.py**
-   - The main script that runs the federated learning experiment and plots the results.
+### 4. `main.py`
+   - **Purpose**: The entry point of the project, responsible for initializing and running the federated learning experiments using the `ExperimentRunner` class.
+   - **Key Functionality**:
+      - `main()`: Sets up the parameters for the experiment, calls the `ExperimentRunner`, and runs the entire training and evaluation process.
 
 ## Installation
 
