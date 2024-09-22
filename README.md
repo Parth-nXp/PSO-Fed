@@ -35,7 +35,7 @@ The project is divided into four main scripts:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/PSO-Fed.git
+    git clone https://github.com/your-username/Partial-Sharing-Online-Federated-Learning.git
     cd PSO-Fed
     ```
 
@@ -65,7 +65,7 @@ If you encounter any issues or errors while running the project, please check th
   
 - Make sure you are using a compatible version of Python (e.g., Python 3.6 or higher).
  
-- If you encounter issues related to missing files or incorrect paths, verify that you are in the correct directory (`PSO-Fed`).
+- If you encounter issues related to missing files or incorrect paths, verify that you are in the correct directory (`Partial-Sharing-Online-Federated-Learning`).
 
 If problems persist, feel free to open an issue on GitHub.
 
