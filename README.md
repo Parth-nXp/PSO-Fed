@@ -35,7 +35,7 @@ The project is divided into four main scripts:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/Partial-Sharing-Online-Federated-Learning.git
+    git clone https://github.com/Parth-nXp/Partial-Sharing-Online-Federated-Learning.git
     cd PSO-Fed
     ```
 
